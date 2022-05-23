@@ -1,0 +1,52 @@
+// @import '../base/variables';
+// @import '../base/listas';
+// @import '../base/mapas';
+
+
+#header{
+    background-image: url(../assets/fondo-header.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+
+    h1{
+        font-size: 5vh;
+        margin-right: 4vh;
+        color: crimson;
+        font-family: 'Lobster', cursive;
+        line-height: 1.2;
+    }
+
+    p{
+        font-size: 2.5vh;
+        color: crimson;
+        font-family: 'Lobster';
+    }
+
+    .boton-conocenos{
+        font-size: 18px;
+        text-decoration: none;
+        color: white;
+        border: 1px solid crimson;
+        background-color: crimson;
+        padding: 10px 20px;
+        border-radius: 10px;
+        margin-top: 20px;
+        font-weight: bold;
+    }
+
+    .boton-conocenos:hover{
+        background: white;
+        color: crimson;
+        border: 1px solid crimson;
+        transform: scale(1.1);
+        transition: all 1s;
+        font-weight: bold;
+    }
+}

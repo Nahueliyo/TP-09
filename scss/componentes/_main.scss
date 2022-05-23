@@ -1,0 +1,76 @@
+@import '../base/mapas';
+
+
+.zona-navegable{
+    width: 50%;
+    display: inline;
+
+    .lista-navegable{
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+        margin: 1vh 0;
+
+        .item-lista-nav{
+            background-color: map-get($boton, bg-boton);
+            border-radius: map-get($boton, radio-borde);
+            padding: map-get($boton, padding);
+        
+            .boton{
+                text-decoration: none;
+                color: white;
+                font-weight: bold;
+                font-family: sans-serif;
+            }           
+        }
+        .item-lista-nav:hover{
+            background: blanchedalmond;
+            color: crimson;
+            border: 1px solid crimson;
+            transition: all 1s;
+            font-weight: bold;
+            
+        }
+        @media screen and (max-width:425px){
+            display: none;
+        }
+    }
+    .seccion-mobile{
+        display: flex;  flex-direction: row; 
+        justify-content: space-between;
+        .menu-desplegable{
+            background-color: map-get($boton, bg-boton);
+            border-radius: map-get($boton, radio-borde);
+            font-weight: map-get($boton, font-weight);
+            margin-left: 3px;
+            
+            
+            .dropdown-item:hover{
+                background-color: blanchedalmond;
+            }
+        }
+        
+        @media screen and (min-width: 425px){
+            display:none;
+        }
+    }
+}
+
+
+
+
+
+.whatsapp{
+    position: fixed;
+    right: 5px;
+    bottom: 50px;
+    z-index: 3;
+
+    @media screen and (max-width:425px){
+        display: none;
+    }
+}
+
+
+

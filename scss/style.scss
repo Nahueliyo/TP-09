@@ -1,0 +1,14 @@
+/* Nesting */
+
+@import 'base/estilos-generales';
+@import 'base/mapas';
+@import 'base/divisores';
+
+@import 'componentes/header';
+@import 'componentes/main';
+@import 'componentes/footer';
+
+@import 'secciones/contacto';
+@import 'secciones/preguntas';
+@import 'secciones/nosotros';
+@import 'secciones/amigos';
