@@ -221,7 +221,7 @@ html {
 
 .footer {
   width: 100%;
-  background-color: blanchedalmond;
+  background-color: crimson;
   padding-left: 5px;
   display: flex;
   justify-content: space-between;
@@ -239,6 +239,7 @@ html {
 }
 .footer .newsletter .label-input-mail {
   font-size: 14px;
+  font-weight: bold;
 }
 .footer .newsletter .input-mail {
   font-size: 14px;
@@ -337,6 +338,7 @@ html {
   color: black;
   text-decoration: none;
   font-size: 2vh;
+  font-weight: bold;
 }
 
 .collapse {
@@ -344,7 +346,7 @@ html {
 }
 
 .respuesta {
-  font-size: 1vh;
+  font-size: 1.5vh;
 }
 
 .container .sugerencia-pregunta {
@@ -361,6 +363,37 @@ html {
 .parrafo-bienvenida {
   font-size: 3vh;
   font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+.seccion-amigos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 3vh;
+}
+.seccion-amigos .subtitulo-amigos {
+  font-size: 3vh;
+  font-weight: bold;
+}
+.seccion-amigos .links-amigos {
+  color: black;
+}
+.seccion-amigos .links-amigos .quality {
+  font-size: 2vh;
+  margin: 5vh;
+}
+.seccion-amigos .links-amigos .bosko {
+  font-size: 2vh;
+  margin: 5vh;
+}
+.seccion-amigos .links-amigos .panda-pop {
+  font-size: 2vh;
+  margin: 5vh;
+}
+@media screen and (min-width: 1440px) {
+  .seccion-amigos {
+    margin: 0 50vh;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

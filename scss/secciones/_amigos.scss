@@ -1,0 +1,36 @@
+.seccion-amigos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 3vh;
+
+    .subtitulo-amigos{
+        font-size: 3vh;
+        font-weight: bold;
+    }
+
+    .links-amigos{
+        color: black;
+
+        .quality{
+            font-size: 2vh;
+            margin: 5vh;
+        }
+
+        .bosko{
+            font-size: 2vh;
+            margin: 5vh;
+
+        }
+
+        .panda-pop{
+            font-size: 2vh;
+            margin: 5vh;
+
+        }
+    }
+    @media screen and (min-width:1440px){
+        margin: 0 50vh;
+    }
+
+}
